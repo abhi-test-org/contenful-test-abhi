@@ -1,7 +1,3 @@
-require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
-
 const { contentfulConfig } = require('./gatsby-shared')
 
 const { spaceId, accessToken } = contentfulConfig
